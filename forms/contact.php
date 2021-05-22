@@ -24,8 +24,6 @@
 
   $file = $name.'reponse.txt';
 
-  file_put_contents($file, $envoie);
-
   header('Location: https://mickaelbrodel.github.io/homepage/');
   exit();
 ?>
